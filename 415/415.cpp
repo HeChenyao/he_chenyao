@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    float money=0, salary=0;
+    double money=0, salary=0;
 
     cout << "Enter sales in dollars(-1 to end):";
     cin >> money;

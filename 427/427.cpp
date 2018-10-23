@@ -2,7 +2,9 @@
 using namespace std;
 
 int main()
-{ int binaryNumber=0, transitionNumber=0, decimalNumber=0, scale=0;
+{
+  //设置了二进制数，运算辅助的过渡数，十进制数，进制计算数这四种变量
+  int binaryNumber=0, transitionNumber=0, decimalNumber=0, scale=0;
   cout<<"Enter a binary number:";
   cin>>binaryNumber;
 

@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -22,21 +21,16 @@ int main()
     newbalance=beginningbalance+totalcharge-totalcredits;
 
     if(newbalance>creditlimit)
-    {
+        {
         cout <<"New balance is:"<< newbalance<<endl;
         cout <<"Account:"<<accountnumber<<endl;
         cout <<"Credit limit:" << creditlimit<<endl;
         cout <<"Balance:"<<newbalance<<endl;
-        cout <<"Credit limit Exceeded.\n\nEnter amount number (or -1 to exit):";
-        cin >>accountnumber;
-    }
-
+        cout <<"Credit limit Exceeded.\n\nEnter amount number (or -1 to exit):"; 
+        }
     else
         cout <<"New balance is"<<accountnumber+newbalance<<"\n\nEnter amount number (or -1 to exit):"<<endl;
-
-        cin >>accountnumber;
     }
-
-
+    cin >>accountnumber;
     return 0;
 }
